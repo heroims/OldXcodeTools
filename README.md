@@ -7,4 +7,6 @@ resolve Xcode8.3 not find PackageApplication
 一升级文件就被干掉无奈只有搞个命令
 
 一行命令解决掉
-./installOldXcodeTool.sh
+curl https://heroims.github.io/OldXcodeTools/installOldXcodeTool.sh ./installOldXcodeTool.sh
+
+或下载执行./installOldXcodeTool.sh
