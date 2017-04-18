@@ -6,4 +6,3 @@ fi
 
 eval "sudo mv $myFile $xcodePath"
 sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer/
-chmod +x /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/PackageApplication
