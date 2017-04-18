@@ -9,11 +9,12 @@ resolve Xcode8.3 not find PackageApplication
 一行命令解决掉
 下载执行
 ``` shell
-./installOldXcodeTool.sh
+sudo ./installOldXcodeTool.sh
 ```
 或
 ``` shell
 curl -O https://heroims.github.io/OldXcodeTools/installOldXcodeTool.sh 
-./installOldXcodeTool.sh
+sudo ./installOldXcodeTool.sh
+
 ```
 
