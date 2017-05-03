@@ -1,7 +1,7 @@
 myFile="PackageApplication"
 xcodePath="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/"
 if [ ! -f "$myFile" ]; then
-    curl -O "https://github.com/heroims/OldXcodeTools/PackageApplication"
+    curl -O "https://heroims.github.io/OldXcodeTools/PackageApplication"
 fi
 
 eval "sudo mv $myFile $xcodePath"
