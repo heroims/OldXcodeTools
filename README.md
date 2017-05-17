@@ -14,7 +14,8 @@ sudo ./installOldXcodeTool.sh
 或
 ``` shell
 curl -O https://heroims.github.io/OldXcodeTools/installOldXcodeTool.sh 
-sudo ./installOldXcodeTool.sh
+sudo -s
+./installOldXcodeTool.sh
 
 ```
 提示 Permission denied 
