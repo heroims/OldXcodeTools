@@ -14,12 +14,13 @@ resolve Xcode8.3 not find PackageApplication
 或
 ``` shell
 curl -O https://heroims.github.io/OldXcodeTools/installOldXcodeTool.sh 
-sudo -s
 ./installOldXcodeTool.sh
 
 ```
 提示 Permission denied 
 解决
+先执行下面命令再执行上面的命令即可
 ``` shell
 chmod 777 installOldXcodeTool.sh
+sudo -s
 ```
