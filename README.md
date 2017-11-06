@@ -14,6 +14,7 @@ sudo ./installOldXcodeTool.sh
 或
 ``` shell
 curl -O https://heroims.github.io/OldXcodeTools/installOldXcodeTool.sh 
+chmod 777 installOldXcodeTool.sh
 sudo ./installOldXcodeTool.sh
 
 ```
